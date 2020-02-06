@@ -1,0 +1,8 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "iansan5653.format-python-docstrings",
+    },
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "editor.wordWrap": "on"
+}
