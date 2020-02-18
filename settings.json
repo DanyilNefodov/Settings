@@ -3,7 +3,7 @@
     "editor.wordWrap": "on",
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
-        "--max-line-length=200",
+        "--max-line-length=79",
         "--ignore=E501,E12,E712,E265,E266,E116,E131,E402,E501,E731,E999,W504,W503",
     ],
 }
