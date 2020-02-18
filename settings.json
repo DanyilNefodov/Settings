@@ -1,8 +1,9 @@
 {
-    "[python]": {
-        "editor.defaultFormatter": "iansan5653.format-python-docstrings",
-    },
-    "python.linting.enabled": true,
+    "cornflakes.linter.executablePath": "/home/daniln/.local/bin/flake8",
+    "editor.wordWrap": "on",
     "python.linting.flake8Enabled": true,
-    "editor.wordWrap": "on"
+    "python.linting.flake8Args": [
+        "--max-line-length=200",
+        "--ignore=E501,E12,E712,E265,E266,E116,E131,E402,E501,E731,E999,W504,W503",
+    ],
 }
